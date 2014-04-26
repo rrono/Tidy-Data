@@ -1,3 +1,8 @@
+## The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
+##########################################################################################################
+## Set directory path
+setwd("<replace with your directory path>/UCI HAR Dataset/")
+
 ## Read all raw data files
 activity_labels <- read.table(file="activity_labels.txt")
 features <- read.table(file="features.txt")
