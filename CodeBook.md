@@ -8,7 +8,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. 
 
-Check the README.txt file for further details about this dataset.
+
 Attribute Information:
 For each record in the dataset it is provided: 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
@@ -16,3 +16,80 @@ For each record in the dataset it is provided:
 - A 561-feature vector with time and frequency domain variables. 
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
+
+
+
+
+
+
+
+Ordered list of variables:
+
+1  subject
+2  activityName
+3  timeBodyAccMeanXAxis
+4  timeBodyAccMeanYAxis
+5  timeBodyAccMeanZAxis
+6  timeBodyAccStdXAxis
+7  timeBodyAccStdYAxis
+8  timeBodyAccStdZAxis
+9  timeGravityAccMeanXAxis
+10  timeGravityAccMeanYAxis
+11  timeGravityAccMeanZAxis
+12  timeGravityAccStdXAxis
+13  timeGravityAccStdYAxis
+14  timeGravityAccStdZAxis
+15  timeBodyAccJerkMeanXAxis
+16  timeBodyAccJerkMeanYAxis
+17  timeBodyAccJerkMeanZAxis
+18  timeBodyAccJerkStdXAxis
+19  timeBodyAccJerkStdYAxis
+20  timeBodyAccJerkStdZAxis
+21  timeBodyGyroMeanXAxis
+22  timeBodyGyroMeanYAxis
+23  timeBodyGyroMeanZAxis
+24  timeBodyGyroStdXAxis
+25  timeBodyGyroStdYAxis
+26  timeBodyGyroStdZAxis
+27  timeBodyGyroJerkMeanXAxis
+28  timeBodyGyroJerkMeanYAxis
+29  timeBodyGyroJerkMeanZAxis
+30  timeBodyGyroJerkStdXAxis
+31  timeBodyGyroJerkStdYAxis
+32  timeBodyGyroJerkStdZAxis
+33  timeBodyAccMagMean
+34  timeBodyAccMagStd
+35  timeGravityAccMagMean
+36  timeGravityAccMagStd
+37  timeBodyAccJerkMagMean
+38  timeBodyAccJerkMagStd
+39  timeBodyGyroMagMean
+40  timeBodyGyroMagStd
+41  timeBodyGyroJerkMagMean
+42  timeBodyGyroJerkMagStd
+43  fftBodyAccMeanXAxis
+44  fftBodyAccMeanYAxis
+45  fftBodyAccMeanZAxis
+46  fftBodyAccStdXAxis
+47  fftBodyAccStdYAxis
+48  fftBodyAccStdZAxis
+49  fftBodyAccJerkMeanXAxis
+50  fftBodyAccJerkMeanYAxis
+51  fftBodyAccJerkMeanZAxis
+52  fftBodyAccJerkStdXAxis
+53  fftBodyAccJerkStdYAxis
+54  fftBodyAccJerkStdZAxis
+55  fftBodyGyroMeanXAxis
+56  fftBodyGyroMeanYAxis
+57  fftBodyGyroMeanZAxis
+58  fftBodyGyroStdXAxis
+59  fftBodyGyroStdYAxis
+60  fftBodyGyroStdZAxis
+61  fftBodyAccMagMean
+62  fftBodyAccMagStd
+63  fftBodyBodyAccJerkMagMean
+64  fftBodyBodyAccJerkMagStd
+65  fftBodyBodyGyroMagMean
+66  fftBodyBodyGyroMagStd
+67  fftBodyBodyGyroJerkMagMean
+68  fftBodyBodyGyroJerkMagStd
