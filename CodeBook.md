@@ -38,7 +38,7 @@ Combined (cbind) dataset subject_test, y_test and x_test and named it "test", co
 
 Create a vector of column indexes of mean and standard deviation measurements. Extracts only the measurements on the mean and standard deviation for each measurement.
 
-Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+Creates a second, independent tidy data set (tidy_data.txt) with the average of each variable for each activity and each subject. 
 Compute the averages of the retained variables, grouped by Subject & Activity.
 
 
